@@ -1,13 +1,27 @@
 body{
-	background-color: #fff;
 	padding:0px;
 	margin:0px;
 	font-family:verdana, arial, sans-serif;
+	background-color: #DDD;
+	background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 950, from(#fff), to(#bbb));
+	background-image: -moz-radial-gradient(center 45deg, circle closest-corner, #fff, #bbb);
 }
 
 h1{
 	font-size:45px;
-	margin:20px;
+	margin:60px 20px;
 	color:#444;
 	text-shadow: #777 0px 0px 4px;
+	text-align:center;
+}
+
+a#repos{
+	display: block;
+	color:#333;
+	text-decoration:none;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	text-shadow: #777 0px 0px 2px;
+	margin:40px;
 }
