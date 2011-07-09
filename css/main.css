@@ -1,0 +1,13 @@
+body{
+	background-color: #fff;
+	padding:0px;
+	margin:0px;
+	font-family:verdana, arial, sans-serif;
+}
+
+h1{
+	font-size:45px;
+	margin:20px;
+	color:#444;
+	text-shadow: #777 0px 0px 4px;
+}
